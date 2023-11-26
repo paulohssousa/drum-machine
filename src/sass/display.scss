@@ -1,0 +1,21 @@
+@import "./variables";
+
+#display {
+    display: flex;
+    background-color: $color-4;
+    min-height: 70px;
+    width: 200px;
+    margin-left: 25px;
+    padding: 10px 5px;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2rem;
+    border: 3px inset $color-3;
+}
+
+@media (max-width: 960px) {
+    #display {
+        margin: 20px auto;
+    }
+}
